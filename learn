@@ -1,0 +1,136 @@
+SQL Learning Plan + Practice Exercises
+Beginner Level
+1. Introduction to Databases & SQL
+
+Practice:
+Explain what a database is.
+Describe tables and rows with examples.
+
+2. Basic SQL Queries
+
+Exercise:
+Write a query to select all columns from a table Employees.
+Select only name and age columns.
+Practice dataset: Create a simple Employees table.
+
+3. Working with Columns
+
+Exercise:
+Use aliases to rename name as EmployeeName.
+Use COUNT() to find number of employees.
+
+4. Filtering Data
+
+Exercise:
+Find employees older than 30.
+Find employees with names starting with 'A' using LIKE.
+
+5. Aggregate Functions & Grouping
+
+Exercise:
+Group employees by department and count employees in each.
+Find average salary per department.
+
+Intermediate Level
+6. Joins
+
+Exercise:
+Join Employees with Departments on department_id.
+Use left join to find employees without a department.
+
+7. Subqueries
+
+Exercise:
+Find employees who earn more than the average salary.
+Find departments with more than 5 employees.
+
+8. Set Operations
+
+Exercise:
+Combine two employee lists using UNION.
+Find employees who are in list A but not in list B using EXCEPT.
+
+9. Modifying Data
+
+Exercise:
+Insert a new employee.
+Update salary for a specific employee.
+Delete employees who left the company.
+
+10. Creating and Managing Tables
+
+Exercise:
+Create a Projects table with appropriate columns.
+Alter table to add a new column.
+
+Advanced Level
+11. Indexes and Performance
+
+Exercise:
+Create indexes on Employees(name).
+Analyze query performance before and after.
+
+12. Views
+
+Exercise:
+Create a view showing employee names and their department names.
+
+13. Stored Procedures and Functions
+
+Exercise:
+Write a procedure to increase salary by 10%.
+Create a function to calculate yearly bonus.
+
+14. Transactions & Concurrency
+
+Exercise:
+Write a transaction to transfer funds between accounts.
+Simulate concurrent transactions and observe locks.
+
+15. Advanced SQL Features
+
+Exercise:
+Use window functions to rank employees by salary.
+Write a recursive query to find hierarchical data.
+
+What to Download to Practice SQL Locally
+1. Database Systems
+
+Choose one based on your OS and preference. All are free:
+
+MySQL / MariaDB
+Widely used, beginner-friendly
+Download: https://dev.mysql.com/downloads/
+MariaDB is a compatible fork: https://mariadb.org/download/
+
+PostgreSQL
+Powerful, feature-rich, great for advanced queries
+Download: https://www.postgresql.org/download/
+
+SQLite
+Lightweight, no server needed, great for beginners
+Download: https://sqlite.org/download.html
+
+SQL Server Express (Windows only)
+Free edition of MS SQL Server
+Download: https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+
+2. SQL Clients / IDEs
+
+To write and run SQL queries easily:
+DBeaver (free, supports many DBs)
+https://dbeaver.io/download/
+MySQL Workbench (for MySQL)
+https://dev.mysql.com/downloads/workbench/
+pgAdmin (for PostgreSQL)
+https://www.pgadmin.org/download/
+DB Browser for SQLite
+https://sqlitebrowser.org/dl/
+
+3. Practice Platforms (Online without setup)
+
+If you don’t want local install, try these:
+LeetCode SQL problems
+HackerRank SQL
+Mode Analytics SQL tutorials
+SQLZoo
