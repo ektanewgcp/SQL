@@ -8,6 +8,8 @@ Describe tables and rows with examples.
 
 2. Basic SQL Queries
 
+https://sqlitebrowser.org/dl/    Download from here
+
 Exercise:
 Write a query to select all columns from a table Employees.
 Select only name and age columns.
