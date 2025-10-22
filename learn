@@ -70,11 +70,25 @@ Try:
 SELECT DISTINCT course FROM students;
 
 SELECT name || ' (' || city || ')' AS label FROM students;
+1️⃣ name || ' (' || city || ')'
+
+The double pipe symbols || mean concatenate (join) text strings together in SQLite.
+So, this joins three pieces:
+
+name
+' (' — literal text with a space and an open bracket
+city
+')' — literal closing bracket
+✅ Together it forms one combined string.
+
+2️⃣ AS label
+AS gives that combined result a temporary column name (alias).
+So the output column will be called label.
 
 SELECT AVG(age) FROM students;
 
 Exercise answers: run queries to verify.
-
+===================================================================
 4. Week 2 — Joins & Multiple Tables
 
 Create sample tables:
