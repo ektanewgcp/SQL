@@ -147,7 +147,7 @@ Exercises
 Create orders table with order_id, customer_id, order_date, total.
 
 Create order_items(order_id, book_id, qty, PRIMARY KEY(order_id, book_id)).
-
+======================
 6. Week 4 — Normalization & ER design (practical)
 Example messy table (unnormalized)
 order_id | customer_name | customer_email | book1 | book2 | total
