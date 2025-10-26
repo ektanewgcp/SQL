@@ -227,7 +227,7 @@ EXPLAIN QUERY PLAN SELECT * FROM books WHERE price > 400;
 Practice
 
 Compare query time with and without index for a large table (simulate data with many rows using loops/inserts).
-
+=======================================
 9. Week 7 — Transactions & Foreign Keys
 
 Enable foreign keys (SQLite)
