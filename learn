@@ -211,7 +211,7 @@ Exercises
 For each order, show total items and grand total.
 
 Write a query that flags expensive books (CASE WHEN price>500 THEN 'High' ELSE 'Normal' END).
-
+=========================================================================================================
 8. Week 6 — Indexes & EXPLAIN
 
 Create an index:
